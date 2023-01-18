@@ -16,6 +16,9 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(fileUpload());
 
+console.log(process.env.COOKIE_EXPIRE);
+console.log(process.env.JWT_EXPIRE);
+
 // routes import
 const productRoute = require('./routes/productRoute');
 const userRoute = require('./routes/userRoute');
