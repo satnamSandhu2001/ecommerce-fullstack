@@ -26,7 +26,7 @@ const Home = () => {
         className="h-screen flex items-center justify-center flex-col gap-5 text-white font-Roboto"
         style={{
           background:
-            'url(https://img.freepik.com/premium-photo/3d-rendering-illustration-laptop-computer-with-colorful-screen-keyboard-close-lid-place-darkroom-lighting-effect-image-presentation_37129-1523.jpg?w=996.jpg) center bottom no-repeat',
+            'url(https://img.freepik.com/premium-photo/3d-rendering-illustration-laptop-computer-with-colorful-screen-keyboard-close-lid-place-darkroom-lighting-effect-image-presentation_37129-1523.jpg?w=996) center bottom no-repeat',
           backgroundSize: 'cover',
           clipPath: 'polygon(100% 0, 100% 75%, 50% 90%, 0 75%, 0 0)',
           zIndex: '8',
